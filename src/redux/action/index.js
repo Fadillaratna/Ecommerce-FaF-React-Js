@@ -21,3 +21,10 @@ export const delCrt = (product) => {
     }
 }
 
+export const checkout = () => {
+    return{
+        type : "CHECKOUT",
+
+    }
+}
+
