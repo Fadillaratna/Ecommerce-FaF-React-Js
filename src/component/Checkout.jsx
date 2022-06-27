@@ -11,7 +11,8 @@ const Checkout = () => {
     const dispatch = useDispatch();
     const out = () => {
         if (window.confirm("Are you sure to checkout your cart?")) {
-            window.open("/success")
+            // window.open("/success")
+            window.location.href = "/success"
             dispatch(checkout())
         }
     }
