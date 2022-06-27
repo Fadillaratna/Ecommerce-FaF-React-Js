@@ -9,7 +9,7 @@ const Succes = () => {
                 <h2>Checkout success</h2>
                 <p>Thanks you for shopping!</p>
                 <NavLink className="btn btn-dark" to="/">
-                    Kembali
+                    Back
                 </NavLink>
         </div>
         // <div>
